@@ -1,4 +1,4 @@
-# DSC180B Project MedCoin Overview
+# MedCoin Overview
 
 EHR(Electronic Health Records) was never intended to manage and preserve the complications of cross-institutional and lifelong medical records: Medical information for a patient comes from a variety of places, and different pieces of that information must be put together for clinicians to make efficient healthcare decisions. Because of storage constraints, EHRs frequently store health data at a single location for a few years rather than keeping all-time records for patients. EHR systems used by different hospitals are frequently incompatible. Patients who seek medical treatment at several locations must frequently retype their personal information and request data transfers across these health providers, and they encounter considerable issues accessing their reports, correcting incorrect information, and authorizing medical data. <br />
 <br />
