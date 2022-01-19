@@ -1,5 +1,3 @@
-Save external references here
- <br /> <br />
 References <br /> <br />
 A. Azaria, A. Ekblaw, T. Vieira and A. Lippman, "MedRec: Using Blockchain for Medical Data Access and Permission Management," 2016 2nd International Conference on Open and Big Data (OBD), 2016, pp. 25-30, doi: 10.1109/OBD.2016.11. <br /> <br />
 Agbo, Cornelius C., Qusay H. Mahmoud, and J. Mikael Eklund. "Blockchain technology in healthcare: a systematic review." Healthcare. Vol. 7. No. 2. Multidisciplinary Digital Publishing Institute, 2019. <br /> <br />
