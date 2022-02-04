@@ -1,6 +1,6 @@
-/ SPDX-License-Identifier: GPL-3.0
+// SPDX-License-Identifier: GPL-3.0
 
-pragma solidity >=0.7.0 <0.9.0;
+pragma solidity ^0.4.15;
 
 //identifies the existing relationships of patients list of third parties
 contract Authorization {
@@ -9,6 +9,7 @@ contract Authorization {
     bool public patientEnabled;
     address[] public thirdParties;
     bool[] public thirdPartiesEnabled;
+    bool[] public patientsEnabled;
     address[] public relationships; //list of Relationship contract addresses
 
 
@@ -77,7 +78,6 @@ contract Authorization {
             break;
         }
         }
-        require(getNumEnabledOwners() > 0);
     }
 
     //log a patient-information requestor relationship
@@ -93,9 +93,9 @@ contract Authorization {
     //get the number of enabled patients
     function getNumEnabledPatients() public constant returns (uint) {
         uint num = 0;
-        if(patientEnabled) num++;
-        for(uint i = 0; i < patientEnabled.length; i++) {
-        if(patientEnabled[i]) num++;
+        if(patientEnabled)num++;
+        for(uint i = 0; i < patientsEnabled.length; i++) {
+        if(patientsEnabled[i]) num++;
         }
         return num;
     }
