@@ -1,4 +1,34 @@
-# MedCoin Overview
+## MedCoin Authorization Contract Setup
+
+
+### Data Use Explanation
+Since our project is not concerned with data ingestion and preprocessing,
+we are only concerned with authorization application in the smart contract,
+we therefore does not include the data in the data part.
+For testing purposes, we only rely on remix website, which is https://remix.ethereum.org/, 
+because implementing blockchain infrastructure would take months or even years.
+So if our test solidity file and smart contract solidity files were put on the remix and use the test resources there,
+it would suffice the testing purpose of our contract.
+
+### Docker Use Explanation
+We also will not use docker, because it is hard to deploy docker for bloakchain project.
+
+### Testing website
+For testing purposes, we only rely on remix website, which is https://remix.ethereum.org/
+
+First we should download the solidity files in the src folder:
+
+- `Patient_Registry.sol`: the contract which is in charge of register new patients for authorization
+- `Relationship_Management.sol`: the contract which manages the authorization pairs of patients and third parties
+- `Patient_Registry_Test.sol`: the test contract for Patient_Registry.sol
+- `Relationship_Management_Test.sol`: the test contract for Relationship_Management.sol
+
+Then we put the source files and test files onto remix website(https://remix.ethereum.org/) to test. The contract should work.
+
+### Project Report
+We also include the Project report in the notebook folder.
+
+## MedCoin Authorization Contract Overview
 
 EHR(Electronic Health Records) was never intended to manage and preserve the complications of cross-institutional and lifelong medical records: Medical information for a patient comes from a variety of places, and different pieces of that information must be put together for clinicians to make efficient healthcare decisions. Because of storage constraints, EHRs frequently store health data at a single location for a few years rather than keeping all-time records for patients. EHR systems used by different hospitals are frequently incompatible. Patients who seek medical treatment at several locations must frequently retype their personal information and request data transfers across these health providers, and they encounter considerable issues accessing their reports, correcting incorrect information, and authorizing medical data. <br />
 <br />
@@ -8,3 +38,8 @@ We propose to implement the authorization smart contracts for EHR-related medica
 <br /><br />
 This authorization contract would therefore provide the medical record requesters(doctors, researchers, providers) with stratified access to medical information for research use, clinical use, or kept private; Patients could choose different authorization levels for people to access their medical records enabling a distributed system that provides layered and use for info users and info providers. This authorization smart contract would be the core construct in our medical data encryption, authorization stratification, and medical records transfer aggregation pipeline.
 <br /><br />
+
+## Contributors
+
+- Yifei Wang
+- Ruiwei Wan
