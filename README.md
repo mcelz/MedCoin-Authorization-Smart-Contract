@@ -23,7 +23,8 @@ First we should download the solidity files in the src folder:
 - `Patient_Registry_Test.sol`: the test contract for Patient_Registry.sol
 - `Relationship_Management_Test.sol`: the test contract for Relationship_Management.sol
 
-Then we put the source files and test files onto remix website(https://remix.ethereum.org/) to test. The contract should work.
+Then we put the source files and test files onto remix website(https://remix.ethereum.org/) to test. 
+We also connected to MetaMask Ropsten testnetwork, however, due to the limitations of blockchain infrastructure, our project stops here.
 
 ### Project Report
 We also include the Project report in the notebook folder.
