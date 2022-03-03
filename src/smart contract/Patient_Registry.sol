@@ -9,6 +9,8 @@ contract PatientsRegistry {
     address contractAddr;
     string host;
   }
+  
+  //create mappings
   mapping(address => Patient) patientInfo;
   mapping(string => address) patientByName;
   mapping(address => address) public patientFromContract;
