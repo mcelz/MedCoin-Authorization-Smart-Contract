@@ -6,6 +6,7 @@ import "../smart contract/Patient_Registry.sol";
 
 contract Patient_Registry_Test {
 
+    //create test instances
     bytes32[] patientAddresses;
 
     Patient patientToTest;
