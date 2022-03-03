@@ -6,6 +6,7 @@ import "../smart contract/Relationship_Management.sol";
 
 contract Relationship_Management_Test {
 
+    //create test instances
     address public patient;
     bool public patientEnabled;
     address[] public thirdParties;
