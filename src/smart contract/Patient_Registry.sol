@@ -2,6 +2,9 @@
 
 pragma solidity ^0.4.15;
 
+
+//Modified from https://github.com/mitmedialab/medrec/blob/master/SmartContracts/contracts/AgentRegistry.sol
+
 //register a patient
 contract PatientsRegistry {
   struct Patient {
