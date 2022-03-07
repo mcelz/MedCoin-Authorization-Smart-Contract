@@ -2,6 +2,8 @@
 
 pragma solidity ^0.4.15;
 
+//Modified from https:https://github.com/mitmedialab/medrec/blob/master/SmartContracts/contracts/AllAccessRelationship.sol
+
 //identifies the existing relationships of patients list of third parties
 contract Authorization {
 
