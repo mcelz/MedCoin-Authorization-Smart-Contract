@@ -2,19 +2,18 @@
 
 ### Directory Structure
 <pre>
-MedCoin Authorization Contract
 ├── README.md
-├── notebooks
+├── notebooks/
 │   ├── MedCoin White Paper.pdf
 │   └── report.pdf
-├── references
+├── references/
 │   └── README.md
 ├── report.pdf
-└── src
-    ├── smart contract
+└── src/
+    ├── smart contract/
     │   ├── Patient_Registry.sol
     │   └── Relationship_Management.sol
-    └── test
+    └── test/
         ├── Patient_Registry_Test.sol
         └── Relationship_Management_Test.sol
 </pre>
