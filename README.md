@@ -1,5 +1,23 @@
-## MedCoin Authorization Contract Setup
+## MedCoin Authorization Contract
 
+### Directory Structure
+<pre>
+MedCoin Authorization Contract
+├── README.md
+├── notebooks
+│   ├── MedCoin White Paper.pdf
+│   └── report.pdf
+├── references
+│   └── README.md
+├── report.pdf
+└── src
+    ├── smart contract
+    │   ├── Patient_Registry.sol
+    │   └── Relationship_Management.sol
+    └── test
+        ├── Patient_Registry_Test.sol
+        └── Relationship_Management_Test.sol
+</pre>
 
 ### Data Use Explanation
 Since our project is not concerned with data ingestion and preprocessing,
